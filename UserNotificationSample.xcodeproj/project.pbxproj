@@ -10,24 +10,60 @@
 		5E5F1E481D4210D900927074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1E471D4210D900927074 /* AppDelegate.swift */; };
 		5E5F1E4A1D4210D900927074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1E491D4210D900927074 /* ViewController.swift */; };
 		5E5F1E4D1D4210D900927074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1E4B1D4210D900927074 /* Main.storyboard */; };
-		5E5F1E501D4210D900927074 /* UserNotificationSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1E4E1D4210D900927074 /* UserNotificationSample.xcdatamodeld */; };
 		5E5F1E521D4210D900927074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1E511D4210D900927074 /* Assets.xcassets */; };
 		5E5F1E551D4210D900927074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1E531D4210D900927074 /* LaunchScreen.storyboard */; };
+		5E5F1E671D42192A00927074 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1E661D42192A00927074 /* NotificationService.swift */; };
+		5E5F1E6C1D42192A00927074 /* マンガボックス.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5E5F1E641D42192A00927074 /* マンガボックス.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5E5F1E691D42192A00927074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5F1E3C1D4210D800927074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5F1E631D42192A00927074;
+			remoteInfo = UserNotificationExtensionSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E5F1E6B1D42192A00927074 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5E5F1E6C1D42192A00927074 /* マンガボックス.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5E5F1E441D4210D900927074 /* UserNotificationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserNotificationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5F1E441D4210D900927074 /* マンガボックス.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "マンガボックス.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5F1E471D4210D900927074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E5F1E491D4210D900927074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E5F1E4C1D4210D900927074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5E5F1E4F1D4210D900927074 /* UserNotificationSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserNotificationSample.xcdatamodel; sourceTree = "<group>"; };
 		5E5F1E511D4210D900927074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5F1E541D4210D900927074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E5F1E561D4210D900927074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5F1E5C1D42113F00927074 /* UserNotificationSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UserNotificationSample.entitlements; sourceTree = "<group>"; };
+		5E5F1E5E1D4214C600927074 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		5E5F1E641D42192A00927074 /* マンガボックス.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "マンガボックス.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5F1E661D42192A00927074 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		5E5F1E681D42192A00927074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E5F1E411D4210D900927074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5F1E611D42192A00927074 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,14 +77,17 @@
 			isa = PBXGroup;
 			children = (
 				5E5F1E461D4210D900927074 /* UserNotificationSample */,
+				5E5F1E651D42192A00927074 /* UserNotificationExtensionSample */,
 				5E5F1E451D4210D900927074 /* Products */,
+				5E5F1E5D1D4214C600927074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5E5F1E451D4210D900927074 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E5F1E441D4210D900927074 /* UserNotificationSample.app */,
+				5E5F1E441D4210D900927074 /* マンガボックス.app */,
+				5E5F1E641D42192A00927074 /* マンガボックス.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +95,32 @@
 		5E5F1E461D4210D900927074 /* UserNotificationSample */ = {
 			isa = PBXGroup;
 			children = (
+				5E5F1E5C1D42113F00927074 /* UserNotificationSample.entitlements */,
 				5E5F1E471D4210D900927074 /* AppDelegate.swift */,
 				5E5F1E491D4210D900927074 /* ViewController.swift */,
 				5E5F1E4B1D4210D900927074 /* Main.storyboard */,
 				5E5F1E511D4210D900927074 /* Assets.xcassets */,
 				5E5F1E531D4210D900927074 /* LaunchScreen.storyboard */,
 				5E5F1E561D4210D900927074 /* Info.plist */,
-				5E5F1E4E1D4210D900927074 /* UserNotificationSample.xcdatamodeld */,
 			);
 			path = UserNotificationSample;
+			sourceTree = "<group>";
+		};
+		5E5F1E5D1D4214C600927074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F1E5E1D4214C600927074 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E5F1E651D42192A00927074 /* UserNotificationExtensionSample */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F1E661D42192A00927074 /* NotificationService.swift */,
+				5E5F1E681D42192A00927074 /* Info.plist */,
+			);
+			path = UserNotificationExtensionSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +133,34 @@
 				5E5F1E401D4210D900927074 /* Sources */,
 				5E5F1E411D4210D900927074 /* Frameworks */,
 				5E5F1E421D4210D900927074 /* Resources */,
+				5E5F1E6B1D42192A00927074 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5F1E6A1D42192A00927074 /* PBXTargetDependency */,
+			);
+			name = UserNotificationSample;
+			productName = UserNotificationSample;
+			productReference = 5E5F1E441D4210D900927074 /* マンガボックス.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E5F1E631D42192A00927074 /* UserNotificationExtensionSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5F1E6D1D42192A00927074 /* Build configuration list for PBXNativeTarget "UserNotificationExtensionSample" */;
+			buildPhases = (
+				5E5F1E601D42192A00927074 /* Sources */,
+				5E5F1E611D42192A00927074 /* Frameworks */,
+				5E5F1E621D42192A00927074 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UserNotificationSample;
-			productName = UserNotificationSample;
-			productReference = 5E5F1E441D4210D900927074 /* UserNotificationSample.app */;
-			productType = "com.apple.product-type.application";
+			name = UserNotificationExtensionSample;
+			productName = UserNotificationExtensionSample;
+			productReference = 5E5F1E641D42192A00927074 /* マンガボックス.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +173,17 @@
 				ORGANIZATIONNAME = kenmaz.net;
 				TargetAttributes = {
 					5E5F1E431D4210D900927074 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D9UCJ653YY;
+						DevelopmentTeamName = "Kentaro Matsumae";
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					5E5F1E631D42192A00927074 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = D9UCJ653YY;
 						DevelopmentTeamName = "Kentaro Matsumae";
@@ -119,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				5E5F1E431D4210D900927074 /* UserNotificationSample */,
+				5E5F1E631D42192A00927074 /* UserNotificationExtensionSample */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +221,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E5F1E621D42192A00927074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -143,11 +237,26 @@
 			files = (
 				5E5F1E4A1D4210D900927074 /* ViewController.swift in Sources */,
 				5E5F1E481D4210D900927074 /* AppDelegate.swift in Sources */,
-				5E5F1E501D4210D900927074 /* UserNotificationSample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5F1E601D42192A00927074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5F1E671D42192A00927074 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E5F1E6A1D42192A00927074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5F1E631D42192A00927074 /* UserNotificationExtensionSample */;
+			targetProxy = 5E5F1E691D42192A00927074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5E5F1E4B1D4210D900927074 /* Main.storyboard */ = {
@@ -261,11 +370,13 @@
 		5E5F1E5A1D4210D900927074 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UserNotificationSample/UserNotificationSample.entitlements;
 				INFOPLIST_FILE = UserNotificationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.kenmaz.UserNotificationSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "マンガボックス";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -273,11 +384,37 @@
 		5E5F1E5B1D4210D900927074 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UserNotificationSample/UserNotificationSample.entitlements;
 				INFOPLIST_FILE = UserNotificationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.kenmaz.UserNotificationSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "マンガボックス";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E5F1E6E1D42192A00927074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UserNotificationExtensionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kenmaz.UserNotificationSample.UserNotificationExtensionSample;
+				PRODUCT_NAME = "マンガボックス";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E5F1E6F1D42192A00927074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UserNotificationExtensionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kenmaz.UserNotificationSample.UserNotificationExtensionSample;
+				PRODUCT_NAME = "マンガボックス";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,21 +438,18 @@
 				5E5F1E5B1D4210D900927074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5F1E6D1D42192A00927074 /* Build configuration list for PBXNativeTarget "UserNotificationExtensionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5F1E6E1D42192A00927074 /* Debug */,
+				5E5F1E6F1D42192A00927074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5E5F1E4E1D4210D900927074 /* UserNotificationSample.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5E5F1E4F1D4210D900927074 /* UserNotificationSample.xcdatamodel */,
-			);
-			currentVersion = 5E5F1E4F1D4210D900927074 /* UserNotificationSample.xcdatamodel */;
-			path = UserNotificationSample.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5E5F1E3C1D4210D800927074 /* Project object */;
 }
